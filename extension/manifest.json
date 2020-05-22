@@ -1,0 +1,14 @@
+{
+	"author":"t0pl",
+	"manifest_version":2,
+	"version":"1.0",
+	"name":"Make premium free on www.pass-education.fr",
+	"content_scripts":[{
+		"js":["content.js"],
+		"matches":["http://www.pass-education.fr/*","https://www.pass-education.fr/*"]
+		}
+	],
+	"browser_action": {
+        "default_title": "Bypass premium feature - pass-education.fr"
+    }
+}
